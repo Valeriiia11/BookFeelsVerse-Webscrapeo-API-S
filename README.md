@@ -16,7 +16,7 @@
 
 ## <font color=blue>Objetivos del proyecto</font>
 
->El objetivo de este proyecto es obtener información relevante sobre libros desde el sitio web Goodreads, realizar un análisis de sentimientos en las reseñas y >estructurar los datos en un formato tabular utilizando Python y diversas bibliotecas como BeautifulSoup, requests, Pandas y ParallelDots.
+>El objetivo de este proyecto es obtener información relevante sobre libros desde el sitio web Goodreads, realizar un análisis de sentimientos en las reseñas y estructurar los datos en un formato tabular utilizando Python y diversas bibliotecas como BeautifulSoup, requests, Pandas y ParallelDots.
 
 ## <font color=blue>Fuentes de información</font>
 
@@ -26,12 +26,12 @@ Se obtuvieron datos de sobre las reseñas de libros desde Goodreads utilizando s
 Enlace a la página: [Goodreads](https://www.goodreads.com/)
 
 - ### Crisol
-Se realizó un raspado web en el sitio web de la librería Crisol para obtener información sobre los libros más vendidos. Se utilizaron solicitudes HTTP y BeautifulSoup para extraer títulos, precios, ofertas y autores.
+Se realizó el método de web scraping en el sitio web de la librería Crisol para obtener información sobre los libros más vendidos. Se utilizaron solicitudes HTTP y BeautifulSoup para extraer títulos, precios, ofertas y autores.
 
 Enlace a la página: [Crisol](https://www.crisol.com.pe/)
 
 - ### Komprehend
-Se utilizo la api de esta pagina para hacer un analisis de sentimientos de las reseñas de los libros extraidos y tambien el analisis de emociones de las sinopsis de dichos libros.
+Se utilizo la api de esta página para hacer un análisis de sentimientos de las reseñas de los libros extraídos y tambien el análisis de emociones de las sinópsis de dichos libros.
 
 Enlace a la página: [komprehend](https://komprehend.io)
 
@@ -63,11 +63,11 @@ Enlace a la documentación de la API: [APIdocs](https://apis.paralleldots.com/te
 
 
 ## <font color=blue>Resultados y conclusiones </font>
->Este proyecto proporciona una base sólida para futuros análisis y puede ser ampliado para incluir más características y fuentes de datos. El código está >documentado y se han implementado mecanismos de manejo de errores para garantizar la robustez del programa.
+>Este proyecto proporciona una base sólida para futuros análisis y puede ser ampliado para incluir más características y fuentes de datos. El código está documentado y se han implementado mecanismos de manejo de errores para garantizar la robustez del programa.
 
 
 ## <font color=blue>Desafíos </font>
 
->Dentro de los desafíos que enfrentamos podemos mencionar la busqueda de una API que se adaptara a nuestras necesidades y, al mismo tiempo, afrontamos las >limitaciones de la API seleccionada. Esta presentaba un límite diario de uso, lo que dificultaba probar los códigos con la frecuencia necesaria para su >optimización y corrección de errores. Para aumentar este límite, era necesario suscribirse a un plan de pago.
+>Dentro de los desafíos que enfrentamos podemos mencionar la busqueda de una API que se adaptara a nuestras necesidades y, al mismo tiempo, afrontamos las limitaciones de la API seleccionada. Esta presentaba un límite diario de uso, lo que dificultaba probar los códigos con la frecuencia necesaria para su optimización y corrección de errores. Para aumentar este límite, era necesario suscribirse a un plan de pago.
 >
->Otro desafio encontrado fueron los errores en las solicitudes HTTP y análisis de sentimientos los cuales solucionamos implemetando bloques ***try*** y ***except*** para manejar errores y proporcionar mensajes informativos en caso de fallos.
+>Otro desafío encontrado fueron los errores en las solicitudes HTTP y análisis de sentimientos los cuales solucionamos implemetando bloques ***try*** y ***except*** para manejar errores y proporcionar mensajes informativos en caso de fallos.
